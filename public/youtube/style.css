@@ -1,0 +1,49 @@
+
+.col-lg-12 h1{
+    text-align: center;
+    color: white;
+	font-size: 50px;
+	vertical-align: middle;
+	text-transform: uppercase;
+	
+}
+.col-lg-12.a{
+
+    background-image: url(youtube.jpg);
+    height: 200px;
+
+}
+#youtube{
+	border: 1px solid;
+	border-radius: 10%;
+	background-color: red;
+	padding: 2px;
+}
+#youtube1{
+	padding-right: 0.5px ;
+	color: black;
+}
+.col-lg-12.a.page-header{
+	border-bottom:none;
+	
+}
+.panel-body{
+	border: none;
+}
+.panel-body.a{
+	margin: 0 auto;
+	
+	padding: 15px;
+}
+.form-group h5{
+	text-align: center;
+}
+.form-group.submit{
+	padding-top: 15px;
+}
+.table.table-bordered td a{
+	text-align: center;
+}
+.panel.panel-primary{
+	border:none;
+}

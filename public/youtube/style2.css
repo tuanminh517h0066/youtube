@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.col-lg-12 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.col-lg-12{
+
+    background-image: url(https://i.pinimg.com/originals/8a/a4/33/8aa43318b59561b47568faf4c1f80e6f.jpg);
+    height: 200px;
+
+}
+.panel {
+	border: 0;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	height: 66px;
+	line-height: 45px;
+  }
+.panel-body {
+    padding: 15px;
+    margin-bottom: 60px;    
+  }
+.page-header {
+    
+    border-bottom: none;
+  }
+.panel-primary {
+    border-color: #428bca;
+    
+  }
+input[type=text]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+input[type=submit]{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.bootstrap-table{
+    
+    margin: 20px 50px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table td, .table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+
+}
+.table a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.2em 1.5em;
+    text-transform: uppercase;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+ }
