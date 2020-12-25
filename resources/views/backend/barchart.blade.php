@@ -13,7 +13,7 @@
           //PHP Code 
           <?php
               foreach($list as $channel):
-                $key = "AIzaSyB5H7UnizCaiC_gTx6t0Mq_mBdNUMDx9Nw";
+                $key = "AIzaSyA-6fkcKK0-HZhseIecz4l7z2_htw6c4s4";
                 $base_url = "https://www.googleapis.com/youtube/v3/";
                 $maxResult = 10;
 
@@ -29,7 +29,7 @@
 
                 foreach($video->items as $video):
                   if(isset($video->id->videoId)){
-                    $key = "AIzaSyB5H7UnizCaiC_gTx6t0Mq_mBdNUMDx9Nw";
+                    $key = "AIzaSyA-6fkcKK0-HZhseIecz4l7z2_htw6c4s4";
                     $base_url = "https://www.googleapis.com/youtube/v3/";
                     $APA_URL = "https://www.googleapis.com/youtube/v3/videos?id=".$video->id->videoId."&part=statistics&part=contentDetails&key=".$key;
                     $video1 = json_decode(file_get_contents($APA_URL));

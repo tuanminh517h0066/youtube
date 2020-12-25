@@ -26,7 +26,7 @@
 
                 <?php
                     foreach($list as $channel):
-                        $key = "AIzaSyB5H7UnizCaiC_gTx6t0Mq_mBdNUMDx9Nw";
+                        $key = "AIzaSyA-6fkcKK0-HZhseIecz4l7z2_htw6c4s4";
                         $base_url = "https://www.googleapis.com/youtube/v3/";
                         $maxResult = 15;
 
@@ -63,7 +63,7 @@
                             @foreach($video->items as $video)
                             <?php
                                 //$video->id->videoId;
-                                $key = "AIzaSyB-R-L5iK2p44TisHUhJJqox0tF6zZJaLo";
+                                $key = "AIzaSyA-6fkcKK0-HZhseIecz4l7z2_htw6c4s4";
                                 $base_url = "https://www.googleapis.com/youtube/v3/";
                                 //echo $video->id->videoId;
                                 if(isset($video->id->videoId)){
